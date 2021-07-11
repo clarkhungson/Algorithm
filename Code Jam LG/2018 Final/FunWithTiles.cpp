@@ -133,7 +133,8 @@ void solve() {
 
     int64_t tile = tile1 + tile2;
 
-    cout << tile << " " << ans << endl;
+    // cout << tile << " " << ans;
+    printf("%lld %d", tile, ans);
 }
 
 int main() {
